@@ -1,3 +1,6 @@
 from django.contrib import admin
 
-# Register your models here.
+from balance.models import UserBalance, BalanceTransaction
+
+admin.site.register(UserBalance)
+admin.site.register(BalanceTransaction)
